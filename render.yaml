@@ -3,10 +3,10 @@ services:
   repo: https://github.com/Raj3019/live-kit-agent
 
   # Change this to the path containing your Dockerfile
-  rootDir: Dockerfile
+  rootDir: .
 
   name: agent-example
-  runtime: image
+  runtime: docker
 
   # Free plan is not available for private services
   plan: starter
