@@ -1,9 +1,9 @@
 services:
 - type: pserv
-  repo: https://github.com/livekit-examples/agent-deployment
+  repo: https://github.com/Raj3019/live-kit-agent
 
   # Change this to the path containing your Dockerfile
-  rootDir: python-agent-example-app
+  rootDir: Dockerfile
 
   name: agent-example
   runtime: image
